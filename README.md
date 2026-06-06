@@ -6,7 +6,7 @@ This repository implements an end-to-end reproducible data science and reinforce
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 As EV adoption grows, charging infrastructure faces two major challenges:
 1. **Severe Grid Congestion & High Wait Times** during peak charging hours.
@@ -18,7 +18,7 @@ This project designs a **Dual-Agent Architecture** to address these challenges:
 
 ---
 
-## 📊 Dataset Landscape
+## Dataset Landscape
 
 The pipeline processes and analyzes two distinct EV charging datasets to validate model generalizability:
 
@@ -34,7 +34,7 @@ The pipeline processes and analyzes two distinct EV charging datasets to validat
 
 ---
 
-## 🧠 Machine Learning & Architecture
+## Machine Learning & Architecture
 
 ### 1. Feature Engineering
 We extract the following features from the temporal and spatial datasets:
@@ -56,7 +56,7 @@ Models are trained chronologically (80% train, 20% test) to prevent data leakage
 
 ---
 
-## 💸 Dynamic Tariff & Learning Feedback Loop
+## Dynamic Tariff & Learning Feedback Loop
 
 The pricing policy operates on three levels relative to predicted utilization:
 * **Surge Pricing (₹22/kWh initial)**: Triggered when predicted utilization $\ge$ 80% to throttle peak demand.
@@ -71,7 +71,7 @@ At the end of each simulated day, the **Monitoring Agent** evaluates the outcome
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```directory
 SocBiz/
@@ -105,7 +105,7 @@ SocBiz/
 
 ---
 
-## ⚙️ Installation & Execution
+## Installation & Execution
 
 ### Prerequisites
 Make sure Python 3.8+ is installed on your system.
@@ -130,7 +130,7 @@ Running `run_all.py` will execute the stages sequentially, outputting logs and s
 
 ---
 
-## 📈 Analytical Deliverables & Visuals
+## Analytical Deliverables & Visuals
 
 The pipeline generates high-quality dark-themed plots (saved in `plots/`) ready for presentation:
 
@@ -150,7 +150,7 @@ Tracks daily revenue changes and queue reductions as the pricing agent adapts it
 
 ---
 
-## 💼 Slide Deck Presentation
+## Slide Deck Presentation
 The pipeline compiles all analytical figures and key business takeaways into a PowerPoint file:
 **`presentation_deck.pptx`**
 
